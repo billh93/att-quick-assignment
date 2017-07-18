@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML/Javascript</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css" rel="stylesheet" integrity="sha384-awusxf8AUojygHf2+joICySzB780jVvQaVCAt1clU3QsyAitLGul28Qxb2r1e5g+" crossorigin="anonymous">
+</head>
+
+<body>
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Home</th>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        var table_data = [{
+                first_name: 'Rose',
+                last_name: 'Tyler',
+                home: 'Earth'
+            },
+            {
+                first_name: 'Zoe',
+                last_name: 'Heriot',
+                home: 'Space Station W3'
+            },
+            {
+                first_name: 'Jo',
+                last_name: 'Grant',
+                home: 'Earth'
+            },
+            {
+                first_name: 'Leela',
+                last_name: null,
+                home: 'Unspecified'
+            },
+            {
+                first_name: 'Romana',
+                last_name: null,
+                home: 'Gallifrey'
+            },
+            {
+                first_name: 'Clara',
+                last_name: 'Oswald',
+                home: 'Earth'
+            },
+            {
+                first_name: 'Adric',
+                last_name: null,
+                home: 'Alzarius'
+            },
+            {
+                first_name: 'Susan',
+                last_name: 'Foreman',
+                home: 'Gallifrey'
+            }
+        ];
+        // We loop through each of our objects with 'Foreach'
+        table_data.forEach(function(user) {
+            var tr;
+            tr += "<tr><td>" + user.first_name + "</td><td>" +
+                user.last_name + "</td>" +
+                "<td>" + user.home + "</td></tr>";
+            $('tbody').append(tr);
+        });
+    </script>
+</body>
+
+</html>

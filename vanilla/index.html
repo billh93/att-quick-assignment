@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML/Javascript</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css" />
+</head>
+<body>
+    <table class="centered striped responsive-table">
+        <thead>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Home</th>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    <script>
+    var table_data = [ { first_name : 'Rose', last_name : 'Tyler', home : 'Earth' }, { first_name : 'Zoe', last_name : 'Heriot', home : 'Space Station W3'}, { first_name : 'Jo', last_name : 'Grant', home : 'Earth'}, { first_name : 'Leela', last_name : null,
+home : 'Unspecified'}, { first_name : 'Romana', last_name : null, home : 'Gallifrey'}, { first_name : 'Clara', last_name : 'Oswald', home : 'Earth'}, { first_name : 'Adric', last_name : null, home : 'Alzarius'}, { first_name : 'Susan', last_name : 'Foreman',
+home : 'Gallifrey'} ]; var counter = 0; // We use this counter to keep track how many times we looped through our objects. var tbody = document.getElementById("tbody"); // We use the tbody variable to insert data inside the tbody tags.
+
+    for(var i = 0; i < table_data.length; i++){ // We use the for loop to navigate through our objects and their values.
+        var tr = "<tr>"; // Creates the opening tr tag
+
+        // Grabs our values and displays them into a friendly human format.
+        tr += "<td>" + table_data[i].first_name + "</td>" +
+        "<td>" + table_data[i].last_name + "</td>" +
+        "<td>" + table_data[i].home + "</td></tr>";
+
+        // Inserts our tr and td tags along with our values to the tbody tag
+        tbody.innerHTML += tr;
+    }
+    </script>
+</body>
+</html>
