@@ -1,4 +1,4 @@
-# ATT Quick Assignment
+# AT&T Quick Assignment
 
 ## What It Is
 This is a series of solutions to the problem that has been handed to me by 3rd Party recruiters for a AT&T JR Web Developer Role.
@@ -9,6 +9,7 @@ This is a series of solutions to the problem that has been handed to me by 3rd P
 * Internet Connected Device
 * Modern Web Browser
 * NPM installed in your computer
+* Perl installed in your computer
 
 ## Project Contents
 This project consists the following files and directories:
@@ -20,7 +21,7 @@ This project consists the following files and directories:
 * `perl` - This folder contains the solution to the database assignment using Perl and SQLite.
 * `README.md` - This read me file.
 
-## Basic Instructions
+## Instructions For HTML/Javascript assignment
 1. Download the zip to a directory you'll be working in.
 2. Unzip the file.
 3. Open any folder in a modern browser.
@@ -29,6 +30,19 @@ This project consists the following files and directories:
 6. After installing npm `cd react1`.
 7. Start the server by typing: `npm start`.
 8. Your browser should automatically open to the project.
+
+## Instructions For Perl assignment
+1. Download the zip to a directory you'll be working in.
+2. Unzip the file.
+3. Open the perl folder using your command line.
+4. Make sure you have perl installed on your computer.
+5. Type `chmod +x db.pl` to give permission to run the file.
+6. Type `./db.pl` to create the database.
+7. Type `chmod +x table.pl` to give permission to run the file.
+8. Type `./table.pl` to create the table.
+9. Repeat the instructions for the last two files.
+10. First `insert.pl` and then `select.pl`.
+11. You should get the output of the database in your cli/terminal.
 
 ## Resources Used:
 * StackOverflow
