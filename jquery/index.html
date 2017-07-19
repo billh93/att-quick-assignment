@@ -64,14 +64,19 @@
                 home: 'Gallifrey'
             }
         ];
-        // We loop through each of our objects with 'Foreach'
-        table_data.forEach(function(user) {
-            var tr;
-            tr += "<tr><td>" + user.first_name + "</td><td>" +
-                user.last_name + "</td>" +
-                "<td>" + user.home + "</td></tr>";
-            $('tbody').append(tr);
-        });
+        function insertTable(element) {
+            // We loop through each of our objects with 'Foreach'
+            table_data.forEach(function(user) {
+                var tr;
+                tr += "<tr><td>" + user.first_name + "</td><td>" +
+                    user.last_name + "</td>" +
+                    "<td>" + user.home + "</td></tr>";
+                $(element).append(tr);
+            });
+        }
+        // Please insert the name of the id of the element
+        // To insert your table anywhere you would like
+        insertTable("tbody");
     </script>
 </body>
 

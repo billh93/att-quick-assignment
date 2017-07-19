@@ -44,6 +44,10 @@ This project consists the following files and directories:
 10. First `insert.pl` and then `select.pl`.
 11. You should get the output of the database in your cli/terminal.
 
+## Notes
+I only completed the bonus part of the assignment using vanilla JS and jQuery.
+React is self explanatory and easily able to insert the table using components.
+
 ## Resources Used:
 * StackOverflow
 * Google
