@@ -20,6 +20,7 @@ This project consists the following files and directories:
 * `react2` - This folder contains the solution to the first assignment using pure React.
 * `perl` - This folder contains the solution to the database assignment using Perl and SQLite.
 * `README.md` - This read me file.
+* `Job_Application_Project_Abridged_Junior.txt Att.txt` - This is the assignment text file.
 
 ## Instructions For HTML/Javascript assignment
 1. Download the zip to a directory you'll be working in.
