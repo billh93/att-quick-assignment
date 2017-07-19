@@ -1,5 +1,7 @@
 #!/usr/bin/perl
 
+# This file creates a table called users when first run
+
 use DBI;
 use strict;
 
@@ -18,6 +20,7 @@ my $stmt = qq(CREATE TABLE USERS
       LAST_NAME            TEXT     NOT NULL,
       HOME        TEXT NOT NULL););
 
+# This object method creates the table
 my $rv = $dbh->do($stmt);
 if($rv < 0) {
    print $DBI::errstr;

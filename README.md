@@ -13,10 +13,11 @@ This is a series of solutions to the problem that has been handed to me by 3rd P
 ## Project Contents
 This project consists the following files and directories:
 
-* `vanilla` - This folder contains the solution to the first problem using vanilla JS.
-* `jquery` - This folder contains the solution to the first problem using jQuery.
-* `react1` - This folder contains the solution to the first problem using React and a packaged called 'react-json-table'.
-* `react2` - This folder contains the solution to the first problem using pure React.
+* `vanilla` - This folder contains the solution to the first assignment using vanilla JS.
+* `jquery` - This folder contains the solution to the first assignment using jQuery.
+* `react1` - This folder contains the solution to the first assignment using React and a packaged called 'react-json-table'.
+* `react2` - This folder contains the solution to the first assignment using pure React.
+* `perl` - This folder contains the solution to the database assignment using Perl and SQLite.
 * `README.md` - This read me file.
 
 ## Basic Instructions

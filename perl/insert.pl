@@ -1,5 +1,7 @@
 #!/usr/bin/perl
 
+# This file adds the table_data object from previous assignment
+
 use DBI;
 use strict;
 

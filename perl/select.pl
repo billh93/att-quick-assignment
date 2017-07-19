@@ -1,5 +1,7 @@
 #!/usr/bin/perl
 
+# This file gets all the data from the users table
+# It then prints it out to the cli/terminal
 use DBI;
 use strict;
 
@@ -19,7 +21,7 @@ my $rv = $sth->execute() or die $DBI::errstr;
 if($rv < 0) {
    print $DBI::errstr;
 }
-
+# Loops around the array and prints it to the cli/terminal
 while(my @row = $sth->fetchrow_array()) {
       print "ID = ". $row[0] . "\n";
       print "First Name = ". $row[1] ."\n";
