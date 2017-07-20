@@ -1,8 +1,7 @@
-# AT&T Quick Assignment
+# Test Assignment
 
 ## What It Is
-This is a series of solutions to the problem that has been handed to me by 3rd Party recruiters for a AT&T JR Web Developer Role.
-
+This is a series of solutions to the problem that has been handed to me by 3rd Party recruiters for Jr web dev role.
 
 ## Required Libraries and Dependencies
 
@@ -20,7 +19,6 @@ This project consists the following files and directories:
 * `react2` - This folder contains the solution to the first assignment using pure React.
 * `perl` - This folder contains the solution to the database assignment using Perl and SQLite.
 * `README.md` - This read me file.
-* `Job_Application_Project_Abridged_Junior.txt Att.txt` - This is the assignment text file.
 
 ## Instructions For HTML/Javascript assignment
 1. Download the zip to a directory you'll be working in.
